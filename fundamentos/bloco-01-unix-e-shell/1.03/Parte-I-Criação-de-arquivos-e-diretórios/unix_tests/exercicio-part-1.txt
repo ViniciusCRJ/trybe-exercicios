@@ -1,0 +1,32 @@
+mkdir unix_tests
+   49  cd unix_tests
+   50  touch trybe.txt
+   51  cp trybe.txt trybe_bckup.txt
+   52  mv trybe.txt trybe2.txt
+   53  mkdir backup
+   54  mv trybe_bckup.txt trybe_backup.txt
+   55  mv trybe_backup.txt backup
+   56  mkdir backup2
+   57  cd backup
+   58  mv trybe_backup.txt ../backup2
+   59  cd ../unix_tests
+   60  cd ../
+   61  rm backup
+   62  rmdir backup
+   63  mv backup2 backup
+   64  ls -l
+   65  rm -fr backup
+   66  ls -l
+   67  bash_history
+   68  bash history
+   69  history
+   70  touch exercicio-part-1.txt
+   71  cat >> exercicio-part-1.txt
+   72  touch skills.txt
+   73  cat >> skills.txt
+   74  head -5 skills.txt
+   75  tail -4 skills.txt
+   76  rm *.txt
+   77  ls -l
+
+
